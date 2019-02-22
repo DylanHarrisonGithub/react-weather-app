@@ -1,21 +1,24 @@
 .App {
   text-align: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #282c34;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  height: 50px;
+  width: 50px;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  min-height: 500px;
   color: white;
 }
 
@@ -30,4 +33,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+input {
+  height: 42px;
+  font-size: 22px;
+  overflow: hidden;
+}
+.error {
+  border: 2px solid red;
+}
+.valid {
+  border: 2px solid green;
+}
+
+button {
+  height: 50px;
+  font-size: 24px;
+  background-color: #4b6394;
+  border-color: rgb(52, 52, 73);
+  color: white;
+}
+
+.card {
+  height: 200px;
+  border-color: black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.map {
+  width: 50%;
+  height: 260px;
+  border-color: black;
+  border-radius: 10px;
+  float: left;
+}
+
+.weather {
+  width: 50%;
+  height: 260px;
+  background-color: rgb(187, 208, 218);
+  border-color: black;
+  border-radius: 10px;
+  float: right;
+  text-align: center;
+}
+
+.weather-data {
+  width: 100%;
+  border-bottom: 1px solid black;
 }

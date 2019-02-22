@@ -20,6 +20,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        
+        <div id="map" style={{height:'400px', width:'400px'}}></div>
       </div>
     );
   }
